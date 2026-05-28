@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -15,7 +15,7 @@ import GetEstimate from './pages/GetEstimate';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <ScrollToTop />
       <div className="min-h-screen text-gray-800 flex flex-col">
         <Navbar />
@@ -37,7 +37,7 @@ function App() {
         
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

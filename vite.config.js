@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/vis-digital-prototype/', // <-- MUST exactly match your repo name!
 })
