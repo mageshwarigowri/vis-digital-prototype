@@ -1,0 +1,14 @@
+/* Import Tailwind v4 */
+@import "tailwindcss";
+
+/* Define your custom theme variables here instead of tailwind.config.js */
+@theme {
+  --color-brandPurple: #9333EA;
+  --color-brandDark: #111827;
+}
+
+/* Base styles */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FAFAFA;
+}
